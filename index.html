@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <script src="js/script.js" defer></script>
+
+  <title>Document</title>
+
+</head>
+
+<body>
+  
+  <header>
+    <button id="openBtn" onclick="openSideBar()">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M3 18v-2h18v2zm0-5v-2h18v2zm0-5V6h18v2z"/></svg>
+    </button>
+    <nav id="navbar">
+      <ul>
+        <li class="logo">
+          <a href=""> MA<span class="highlight">MON</span> </a>
+          <button id="closeBtn" onclick="closeSideBar()">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M6.4 19L5 17.6l5.6-5.6L5 6.4L6.4 5l5.6 5.6L17.6 5L19 6.4L13.4 12l5.6 5.6l-1.4 1.4l-5.6-5.6z"/></svg>
+          </button>
+        </li>
+        <li><a href=""> HOME </a></li>
+        <li><a href=""> PROJECTS </a></li>
+        <li><a href=""> CONTACT </a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="hero-section">
+      <div class="wrapper">
+        <span class="main"> JUNIOR <span class="highlight">FRONT END</span> DEVELOPER </span>
+        <span class="sub"> BUILDING PROJECTS ONE CODE AT A TIME </span>
+      </div>
+
+      <div class="hero-tech">
+        <span class="title"> MY TECHNOLOGIES </span>
+        <div class="icons">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><path fill="#e44f26" d="M5.902 27.201L3.655 2h24.69l-2.25 25.197L15.985 30z"/><path fill="#f1662a" d="m16 27.858l8.17-2.265l1.922-21.532H16z"/><path fill="#ebebeb" d="M16 13.407h-4.09l-.282-3.165H16V7.151H8.25l.074.83l.759 8.517H16zm0 8.027l-.014.004l-3.442-.929l-.22-2.465H9.221l.433 4.852l6.332 1.758l.014-.004z"/><path fill="#fff" d="M15.989 13.407v3.091h3.806l-.358 4.009l-3.448.93v3.216l6.337-1.757l.046-.522l.726-8.137l.076-.83zm0-6.256v3.091h7.466l.062-.694l.141-1.567l.074-.83z"/></svg>
+
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><path fill="#639" d="M1.995 1.994h23.52a4.48 4.48 0 0 1 4.48 4.48v19.04a4.48 4.48 0 0 1-4.48 4.48H6.475a4.48 4.48 0 0 1-4.48-4.48Z"/><path fill="#fff" d="M9.079 24.87v-4.704c0-1.876 1.204-2.884 3.024-2.884c1.792-.028 2.912 1.148 2.856 3.136h-2.072c.056-.756-.28-1.316-.84-1.288c-.7 0-.896.476-.896 1.372v4.088c0 .868.28 1.288.896 1.316c.644 0 .896-.644.84-1.372h2.072c.112 2.044-1.176 3.248-2.996 3.22c-1.764 0-2.884-.98-2.884-2.884m6.636-.336h1.932c.028.896.308 1.456.924 1.456s.84-.364.84-1.204c0-.7-.308-1.092-1.064-1.456l-.728-.336c-1.288-.616-1.82-1.372-1.82-2.884c0-1.68 1.064-2.856 2.8-2.856s2.66 1.204 2.688 3.164h-1.876c0-.812-.168-1.372-.784-1.372c-.56 0-.84.28-.84.98s.252.98.924 1.26l.672.308c1.428.672 2.044 1.54 2.044 3.164c0 1.932-1.092 2.996-2.884 2.996s-2.8-1.232-2.828-3.22m6.328 0h1.96c0 .896.308 1.456.896 1.456s.84-.364.84-1.204c0-.7-.28-1.092-1.064-1.456l-.728-.336c-1.288-.616-1.792-1.372-1.792-2.884c0-1.68 1.036-2.856 2.8-2.856s2.632 1.204 2.688 3.164h-1.876c-.028-.812-.196-1.372-.812-1.372c-.56 0-.812.28-.812.98s.224.98.896 1.26l.7.308c1.4.672 2.016 1.54 2.016 3.164c0 1.932-1.092 2.996-2.884 2.996s-2.8-1.232-2.828-3.22"/></svg>
+
+          <svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128"><path fill="#f0db4f" d="M1.408 1.408h125.184v125.185H1.408z"/><path fill="#323330" d="M116.347 96.736c-.917-5.711-4.641-10.508-15.672-14.981c-3.832-1.761-8.104-3.022-9.377-5.926c-.452-1.69-.512-2.642-.226-3.665c.821-3.32 4.784-4.355 7.925-3.403c2.023.678 3.938 2.237 5.093 4.724c5.402-3.498 5.391-3.475 9.163-5.879c-1.381-2.141-2.118-3.129-3.022-4.045c-3.249-3.629-7.676-5.498-14.756-5.355l-3.688.477c-3.534.893-6.902 2.748-8.877 5.235c-5.926 6.724-4.236 18.492 2.975 23.335c7.104 5.332 17.54 6.545 18.873 11.531c1.297 6.104-4.486 8.08-10.234 7.378c-4.236-.881-6.592-3.034-9.139-6.949c-4.688 2.713-4.688 2.713-9.508 5.485c1.143 2.499 2.344 3.63 4.26 5.795c9.068 9.198 31.76 8.746 35.83-5.176c.165-.478 1.261-3.666.38-8.581M69.462 58.943H57.753l-.048 30.272c0 6.438.333 12.34-.714 14.149c-1.713 3.558-6.152 3.117-8.175 2.427c-2.059-1.012-3.106-2.451-4.319-4.485c-.333-.584-.583-1.036-.667-1.071l-9.52 5.83c1.583 3.249 3.915 6.069 6.902 7.901c4.462 2.678 10.459 3.499 16.731 2.059c4.082-1.189 7.604-3.652 9.448-7.401c2.666-4.915 2.094-10.864 2.07-17.444c.06-10.735.001-21.468.001-32.237"/></svg>
+
+          <svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256"><path fill="#de4c36" d="M251.172 116.594L139.4 4.828c-6.433-6.437-16.873-6.437-23.314 0l-23.21 23.21l29.443 29.443c6.842-2.312 14.688-.761 20.142 4.693c5.48 5.489 7.02 13.402 4.652 20.266l28.375 28.376c6.865-2.365 14.786-.835 20.269 4.657c7.663 7.66 7.663 20.075 0 27.74c-7.665 7.666-20.08 7.666-27.749 0c-5.764-5.77-7.188-14.235-4.27-21.336l-26.462-26.462l-.003 69.637a19.8 19.8 0 0 1 5.188 3.71c7.663 7.66 7.663 20.076 0 27.747c-7.665 7.662-20.086 7.662-27.74 0c-7.663-7.671-7.663-20.086 0-27.746a19.7 19.7 0 0 1 6.421-4.281V94.196a19.4 19.4 0 0 1-6.421-4.281c-5.806-5.798-7.202-14.317-4.227-21.446L81.47 39.442L4.83 116.077c-6.44 6.443-6.44 16.884 0 23.322l111.774 111.768c6.435 6.438 16.873 6.438 23.316 0l111.251-111.249c6.438-6.44 6.438-16.887 0-23.324"/></svg>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="project">
+      <div class="title"> <span class="highlight">—</span> PROJECTS </div>
+
+      <div class="wrapper">
+
+        <div class="card">
+          <div class="img">
+            <img src="images/Wesbite-portfolio.png" alt="">
+          </div>
+          <div class="info">
+            <div class="name"> Website Portfolio </div>
+            <div class="desc">
+              This project is a fully responsive, single-page application built using HTML for semantic structure, CSS for modern styling and layout, and Javascript for interactive elements. It utilizes a dark-mode color palette and clear typography to create a professional and engaging user experience, serving as a dedicated showcase for my front-end development capabilities.
+            </div>
+            <div class="tech">
+              <div> HTML </div>
+              <div> CSS </div>
+              <div> Javascript </div>
+            </div>
+            <a href="" target="_blank" class="btn"> 
+              <span> Visit site </span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M10.25 3.75h-2.5a4 4 0 0 0-4 4v8.5a4 4 0 0 0 4 4h8.5a4 4 0 0 0 4-4v-2.5m-6.5-10h5.5c.276 0 .526.112.707.293m.293 6.207v-5.5a1 1 0 0 0-.293-.707M12.75 11.25l6.5-6.5l.707-.707"/></svg>
+            </a>
+          </div>
+        </div>
+      
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="title"> <span class="highlight">—</span> CONTACT ME </div>
+    <div class="link">
+      <a href=""> HOME </a>
+      <a href=""> PROJECTS </a>
+    </div>
+    <div class="email">
+      <span> Email </span>
+      <span> johnraymondramirez.dev@gmail.com </span>
+    </div>
+    <div class="contact">
+      <span> Viber / Contact no. </span>
+      <span> +63 995 270 5568 </span>
+    </div>
+    <div class="github">
+      <a href="" target="_blank"> Github </a>
+    </div>
+  </footer>
+
+</body>
+
+</html>
