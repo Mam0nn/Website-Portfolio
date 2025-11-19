@@ -173,13 +173,16 @@ nav a:hover {
 
 .card img {
   width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
   border-radius: 10px;
-  border: 1px solid var(--hover);
+  border: 2px solid var(--hover);
 }
 
 .info {
   display: flex;
   flex-direction: column;
+  height: 100%;
   gap: 16px;
 }
 
@@ -198,6 +201,7 @@ nav a:hover {
   gap: 12px;
   color: var(--text-muted);
   font-weight: bold;
+  margin-bottom: auto;
 }
 
 .info a {
@@ -340,7 +344,14 @@ footer .github a{
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 724px) {
+   .hero-section .main {
+    font-size: 2rem;
+  }
+
+}
+
+@media (max-width: 482px) {
    .hero-section .main {
     font-size: 1.5rem;
   }
